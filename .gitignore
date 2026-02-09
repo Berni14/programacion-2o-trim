@@ -1,0 +1,15 @@
+# Archivos compilados
+*.class
+
+# Ejecutables
+*.exe
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
