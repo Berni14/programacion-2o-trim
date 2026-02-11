@@ -10,10 +10,20 @@ public class App {
         int longitud = sc.nextInt();
 
         int[] aleatorio = generarArray(longitud);
+        
 
-        System.out.printf("Array ordenado: %s ", Arrays.toString(aleatorio));
+        System.out.printf("Array aleatorio: %s Array ordenado: %s", Arrays.toString(aleatorio), Arrays.toString(ordenarArray(aleatorio)));
+
 
         sc.close();
+    }
+    public static int[] ordenarArray(int[] arrayAleatorio){
+        Arrays.sort(arrayAleatorio);
+        return arrayAleatorio;
+
+
+        
+
     }
 
     public static int[] generarArray(int longitud) {
@@ -38,7 +48,7 @@ public class App {
                 pos++;
             }
         }
-        Arrays.sort(array);
         return array;
     }
+    
 }
