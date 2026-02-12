@@ -21,6 +21,10 @@ public class App {
         for (int i = 0; i < array.length; i++) {
             resultado[i] = nombre[array[i]];
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3292e70c8f431ea374bc2724a39e0f820a113b5c
         return resultado;
     }
 
@@ -49,4 +53,8 @@ public class App {
         Arrays.sort(array);
         return array;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3292e70c8f431ea374bc2724a39e0f820a113b5c
